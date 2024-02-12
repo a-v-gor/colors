@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  width: 1006px;
+}
+
+.color-block {
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  padding: 2px;
+  user-select: none;
+}
+
+.color-block:hover {
+  cursor: pointer;
+}
