@@ -2,8 +2,12 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
   background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .wrapper {
@@ -26,4 +30,9 @@ body {
 
 .color-block:hover {
   cursor: pointer;
+}
+
+.info {
+  font-weight: bold;
+  font-size: 20px;
 }
